@@ -20,7 +20,7 @@
   position: absolute;
   height: 3px;
   width: 100%;
-  background: darkblue;
+  background: grey;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);

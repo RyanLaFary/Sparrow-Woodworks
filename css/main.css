@@ -8,6 +8,7 @@
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6 .h6 {
 	font-weight: 800;
 	margin-bottom: 2rem;
+	padding-top: 30px;
 }
 
 h1, .h1 { font-size: 4rem; }
@@ -55,12 +56,11 @@ body.overlay {
 }
 
 .pic_logo {
-	width: 33px;
-	height: 30px;
+	width: 0;
+	height: 0;
 	position: absolute;
 	float: left;
   margin-top: -5px;
-	display: none;
 }
 
 .image-icon {
@@ -127,7 +127,6 @@ img {
 	display: block;
 	padding-top: 40px;
 }
-
 
 nav {
 	background: darkgrey;
@@ -268,7 +267,7 @@ nav ul li a {
 }
 
 .section {
-	padding: 4rem 15px;
+	padding: .2rem 15px;
 }
 
 .section:nth-child(even) {
@@ -284,6 +283,7 @@ nav ul li a {
   height: 100%;
   margin-bottom: 30px;
   border-radius: 5px;
+	padding-top: 20px;
 }
 
 ul {
@@ -352,6 +352,7 @@ ul {
 	padding: 15px 30px;
 	margin-top: 15px;
 	border-radius: 2px;
+	margin-bottom: 20px;
 }
 
 .section.cta .btn:hover {
@@ -426,7 +427,6 @@ footer p {
 		margin-top: 4px;
 	}
 
-
 	.logo-icon a {
 		display: block;
 		width: 110px;
@@ -461,6 +461,24 @@ footer p {
   .slick-arrow {
     display: block;
   }
+
+	.btn-ghost {
+	  color: #000;
+	  border: 1px solid #000;
+	  border-radius: 2px;
+	  padding: 15px 5px;
+	  margin: 15px 0;
+		font-size: 1rem;
+	}
+
+	.pic-sww_logo_1 {
+		width: 400px;
+		height: 300px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+	}
 }
 /* MEDIUM (md) devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -496,19 +514,30 @@ footer p {
 
 	nav ul {
 		text-align: right;
-		margin-top: 5px;
+		margin-top: 50px;
 	}
 
 	nav ul li a {
 		color: grey;
 		padding: 0;
 		font-size: 1.5rem;
-		padding: 0 5px;
+		padding: 0 10px;
 	}
 
 	.logo,
 	nav {
 		float: left;
+	}
+
+	.logo-icon {
+		margin-top: 50px;
+		height: 100px	;
+	}
+
+	.logo-icon a img {
+		width: 100%;
+		height: auto;
+		margin: -2px 0 0 -7px;
 	}
 
 	.slideshow,
@@ -520,8 +549,8 @@ footer p {
   .slideshow .caption {
     position: absolute;
     width: 50%;
-    top: 50%;
-    left: 5%;
+    top: 70%;
+    left: 40%;
   }
 
   .slideshow .caption p {
@@ -532,10 +561,36 @@ footer p {
     font-size: 3rem;
   }
 
+	.pic-sww_logo_1 {
+		width: 500px;
+		height: 400px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+	}
 }
 
 /* LARGE (lg) devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+	nav ul li a {
+		color: grey;
+		font-size: 1.5rem;
+		padding: 20px;
+	}
+
+	.logo,
+	nav {
+		float: left;
+		padding-top: 20px;
+	}
+
+	.logo-icon {
+		margin-top: 30px;
+		height: 100px	;
+	}
+
   .slideshow .caption {
     position: absolute;
     color: #fff;
@@ -563,6 +618,15 @@ footer p {
     font-size: 5rem;
     font-weight: 900;
   }
+
+	.btn-ghost {
+		color: #000;
+		border: 1px solid #000;
+		border-radius: 2px;
+		padding: 15px 5px;
+		margin: 15px 0;
+		font-size: 1.5rem;
+	}
 }
 
 
