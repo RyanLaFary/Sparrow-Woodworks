@@ -462,7 +462,7 @@ footer p {
 		color: grey;
 		padding: 0;
 		font-size: 1.5rem;
-		padding: 0 15px;
+		padding: 0 10px;
 	}
 
 	.logo,
@@ -499,13 +499,13 @@ footer p {
     position: absolute;
     color: #fff;
     font-weight: 900;
-    top: 50%;
+    top: 65%;
     margin-top: -10%;
-    left: 5%;
+    left: 55%;
     background: rgba(0, 0, 0, .5);
     border-radius: 5px;
     padding: 1.5rem 3rem;
-    width: 50%;
+    width: 40%;
     display: inline-block;
   }
 
