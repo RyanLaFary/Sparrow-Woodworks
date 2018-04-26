@@ -60,6 +60,7 @@ body.overlay {
 	position: absolute;
 	float: left;
   margin-top: -5px;
+	display: none;
 }
 
 .image-icon {
@@ -88,6 +89,7 @@ img-responsive {
 .logo-img {
   background: red;
   padding: 10px;
+	display: none;
 }
 
 img {
@@ -102,6 +104,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
+	display: none;
 }
 
 .pic-center {
@@ -240,13 +243,13 @@ nav ul li a {
   position: absolute;
   color: #fff;
   font-weight: 900;
-  top: 35%;
+  top: 50%;
   margin-top: -10%;
-  left: 5%;
+  left: 30%;
   background: rgba(0, 0, 0, .5);
   border-radius: 5px;
   padding: 1.5rem 3rem;
-  width: 80%;
+  width: 60%;
   display: inline-block;
 }
 
@@ -436,7 +439,7 @@ footer p {
 		height: auto;
 		margin: -2px 0 0 -7px;
 	}
-	
+
 	nav {
 		width: 50%;
 	}
@@ -500,7 +503,7 @@ footer p {
 		color: grey;
 		padding: 0;
 		font-size: 1.5rem;
-		padding: 0 10px;
+		padding: 0 5px;
 	}
 
 	.logo,
